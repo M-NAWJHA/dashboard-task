@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  ::selection{
+    background: #094d94;
+    color: #fff;
+  }
+  body{
+    -moz-transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    background: none;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+  }
+  body::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  body::-webkit-scrollbar-track {
+    background: #f6b531 !important;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #094d94 !important;
+  }
+  a,a:hover{
+    color:inherit;
+    text-decoration:none;
+  }
+/*color-light-mode*/
+.light-mode .text_blue{
+    color: #094d94 !important;
+}
+.light-mode .text_blue2{
+    color: #2781f8 !important;
+}
+.light-mode .text_yellow{
+    color: #f6b531 !important;
+}
+.light-mode .text_white{
+    color: #fff !important;
+}
+.light-mode .text_black{
+    color: #000 !important;
+}
+.light-mode .text_lightgray{
+    color:#f8f8f8 !important;
+}
+.light-mode .text_darkgray{
+    color: #787878 !important;
+}
+/*bg-light-mode*/
+.light-mode .bg_blue{
+    background: #094d94 !important;
+}
+.bgblue{
+    background: #094d94 !important;
+}
+.light-mode .bg_blue2{
+    background: #2781f8 !important;
+}
+.light-mode .bg_yellow{
+    background: #f6b531 !important;
+}
+.bgyellow{
+    background: #f6b531 !important;
+}
+.light-mode .bg_white{
+    background: #fff !important;
+}
+.light-mode .bg_black{
+    background: #000 !important;
+}
+.light-mode .bg_lightgray{
+    background:#f8f8f8 !important;
+}
+.light-mode .bg_darkgray{
+    background: #787878 !important;
+}
+/* border-color-light-mode*/
+.light-mode .bd_blue{
+    border-color: #094d94 !important;
+}
+.light-mode .bd_blue2{
+    border-color: #2781f8 !important;
+}
+.light-mode .bd_yellow{
+    border-color: #f6b531 !important;
+}
+.light-mode .bd_white{
+    border-color: #fff !important;
+}
+.light-mode .bd_black{
+    border-color: #000 !important;
+}
+.light-mode .bd_lightgray{
+    border-color:#fcfcfc !important;
+}
+.light-mode .bd_darkgray{
+    border-color: #787878 !important;
+}
+
+
+.side-menu__item.active .side-menu__icon{
+    color: #f6b531 !important;
+    font-size: 22px;
+}
+
+.side-menu .side-menu__icon {
+    color: #f6b531 !important;
+    font-size: 22px;
+}
+#back-to-top{
+    background: #f6b531;
+    color: #fff;
+    border: none;
+    -moz-transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+}
+#back-to-top:hover{
+    background: #094d94 !important;
+    color: #fff !important;
+    border: none;
+    transition: all 0.5s;
+}
